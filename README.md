@@ -7,15 +7,21 @@ Each Echo Blockchain account has its own unique avatar. Ping will help you get i
 ## Install Ping
 
 ```bash
-npm i @echo/ping
+npm i echojs-ping
 ```
 
 ## Use Ping in your code
 
 ```javascript
-const ping = require('@echo/ping');
+const { svgAvatar } = require('echojs-ping');
 
-const accountSvg = ping.getSvg('pixelplex', 100);
+const accountSvg = svgAvatar('pixelplex', 100);
 ```
 
 where `pixelplex` - an Echo account name, and `100` - an avatar size. 
+
+And as result, you will receive the source of SVG. 
+
+As example:
+
+![PixelPlex avata](.assets/pixelplex-avatar.png)

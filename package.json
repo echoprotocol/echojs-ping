@@ -1,5 +1,5 @@
 {
-  "name": "@echo/ping",
+  "name": "echojs-ping",
   "description": "Generator of Echo blockchain avatars",
   "licenses": [
     {
@@ -7,7 +7,7 @@
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": {
     "name": "PixelPlex inc.",
     "email": "dev@pixelplex.io"

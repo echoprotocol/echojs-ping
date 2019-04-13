@@ -1,11 +1,19 @@
 {
-  "name": "echicon",
-  "description": "Generator Echo blockchain avatars",
-  "license": "MIT",
+  "name": "@echo/ping",
+  "description": "Generator of Echo blockchain avatars",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "version": "0.1.0",
   "author": {
     "name": "PixelPlex inc.",
     "email": "dev@pixelplex.io"
   },
+  "scripts": {},
+  "main": "lib/ping.js",
   "dependencies": {
     "@svgdotjs/svg.js": "^3.0.12",
     "sha1": "^1.1.1",

@@ -14,3 +14,6 @@ module.exports.getRandomInt = (min, max) => {
  * @returns {Array}
  */
 module.exports.shuffleArray = (arr) => arr.sort(() => Math.random() - 0.5);
+
+
+module.exports.getRandom = (min, max) => Math.random() * (max - min) + min;

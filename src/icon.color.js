@@ -22,9 +22,9 @@ const COLOR_CONFIG = {
 class IconColor {
 
 	/**
-	 * @param {String} type - dark or light - type of icon color
+	 * @param {NameNumbers} nameNumbers
 	 */
-	constructor(type = 'dark') {
+	constructor(nameNumbers) {
 		this.base = { r: 0, g: 0, b: 0 };
 		this.lines = { r: 0, g: 0, b: 0 };
 		this.type = type === 'dark' ? 'DARK' : 'LIGHT';

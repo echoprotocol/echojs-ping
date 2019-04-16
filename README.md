@@ -18,10 +18,22 @@ const { svgAvatar } = require('echojs-ping');
 const accountSvg = svgAvatar('pixelplex', 100);
 ```
 
-where `pixelplex` - an Echo account name, and `100` - an avatar size. 
+where `pixelplex` - an Echo account name, and `100` - an avatar size.
 
-And as result, you will receive the source of SVG. 
+And as result, you will receive the source of SVG.
 
 As example:
 
 ![PixelPlex avata](.assets/pixelplex-avatar.png)
+
+### Use on server side
+
+The SVG rendering requires DOM. If you want to use this library on the server, you should use the
+[svgdom](https://www.npmjs.com/package/svgdom) library
+
+```javascript
+const window = require('svgdom');
+const { svgAvatar } = require('echojs-ping');
+
+const accountSvg = svgAvatar('pixelplex', 100, window);
+```

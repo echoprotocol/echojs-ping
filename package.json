@@ -1,6 +1,7 @@
 {
   "name": "echojs-ping",
   "description": "Generator of Echo blockchain avatars",
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
@@ -11,23 +12,28 @@
     "type": "git",
     "url": "https://github.com/echoprotocol/echojs-ping.git"
   },
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": {
     "name": "PixelPlex inc.",
     "email": "dev@pixelplex.io"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "nyc node_modules/.bin/mocha --exit --timeout 15000"
+  },
   "main": "lib/ping.js",
   "dependencies": {
-    "@svgdotjs/svg.js": "^3.0.12",
+    "jsdom": "^14.0.0",
     "sha1": "^1.1.1",
-    "svg.js": "^2.7.1",
-    "svgdom": "0.0.18"
+    "svg.js": "^2.7.1"
   },
   "devDependencies": {
+    "assert": "^1.4.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^6.1.3",
+    "nyc": "^13.3.0",
+    "svgdom": "0.0.18"
   },
   "keywords": [
     "echo",

@@ -1,5 +1,10 @@
 # Ping
 
+[![Build Status](https://travis-ci.com/echoprotocol/echojs-ping.svg?branch=master)](https://travis-ci.com/echoprotocol/echojs-ping)
+[![David](https://img.shields.io/david/echoprotocol/echojs-ping)](https://github.com/echoprotocol/echojs-ping)
+[![npm](https://img.shields.io/npm/dw/echojs-ping)](https://www.npmjs.com/package/echojs-ping)
+[![npm](https://img.shields.io/npm/v/echojs-ping)](https://www.npmjs.com/package/echojs-ping)
+
 Ping is the avatar generator for Echo Blockchain accounts by him username.
 
 Each Echo Blockchain account has its own unique avatar. Ping will help you get it.

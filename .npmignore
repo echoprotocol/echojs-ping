@@ -1,4 +1,7 @@
 .idea
 node_modules
+.nyc_output
+test
+.eslintrc.json
 package-lock.json
 .DS_Store

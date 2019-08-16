@@ -12,13 +12,14 @@
     "type": "git",
     "url": "https://github.com/echoprotocol/echojs-ping.git"
   },
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": {
     "name": "PixelPlex inc.",
     "email": "dev@pixelplex.io"
   },
   "scripts": {
-    "test": "nyc node_modules/.bin/mocha --exit --timeout 15000"
+    "test": "nyc node_modules/.bin/mocha --exit --timeout 15000",
+    "lint": "eslint ."
   },
   "main": "lib/ping.js",
   "dependencies": {
@@ -28,11 +29,12 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
+    "audit-ci": "^2.3.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "mocha": "^6.1.3",
-    "nyc": "^13.3.0",
+    "nyc": "^14.1.1",
     "svgdom": "0.0.18"
   },
   "keywords": [
